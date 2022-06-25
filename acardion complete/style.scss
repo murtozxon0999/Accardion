@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe600;
+    height: 49rem;
+  }
+  h3{
+    font-family: poppins;
+    font-size: 18px;
+  }
+  .container {
+    width: 930px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 50px;
+  }
+  .title {
+    font-weight: bold;
+    font-family: poppins;
+  }
+  span {
+    width: 30px;
+    height: 30px;
+    background-color: #eae6eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: poppins;
+  }
+  .box {
+    width: 550px;
+    height: auto;
+    margin: 0 0 17px 0;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #eae6eb;
+    border-radius: 5px;
+  }
+  .title_icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons {
+    width: 25px;
+    height: 25px;
+    color: #6a39c5  ;
+  }
+  .sapn1_icon1 {
+    display: flex;
+  }
+  .sapn_icons {
+    display: none;
+  }
+  p {
+    color: #324d67;
+    display: none;
+    margin-top: 10px;
+    font-family:poppins;
+  }
+  .murtozxon{
+    margin-top: 1rem;
+    color:white;
+    font-family: poppins;
+    font-size: 3rem;
+  }
+  
